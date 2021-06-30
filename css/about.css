@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nanum+Gothic&display=swap');
+*{
+ box-sizing: border-box;
+}
+body{
+ width: 100%;
+ margin: 0;
+}
+body ul, ol{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+.container{
+ width: 1100px;
+ min-height: 1000px;
+ background-color: white;
+ margin: auto;
+}
+.container .top-header{
+ display: flex;
+ width: 100%;
+ height: 60px;
+ justify-content: space-between;
+ align-items: center;
+ background: white;
+}
+
+.container .top-header .site-menu{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width:70%;
+ height: 40px;
+ padding-right: 25px;
+ font-size: 25px;
+ font-family: "ibm plex Sans";  
+}
+
+.container .top-header .site-menu li a{
+ text-decoration: none;
+}
+.container .banner{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ height: 350px;
+ border-bottom: 1px dotted black;
+}
+.container .banner .banner-picture{
+ width: 100%;
+ height: 200px;
+ background-image: url(../images/jumbo-about.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.container .banner .content{
+ width: 100%;
+ height: 50%;
+}
+.container .banner .content h2{
+ font-size: 25px;
+ font-family: "ibm plex Sans";
+ color: red;
+ padding-left: 10px;
+}
+.container .banner .content p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+ padding-left: 10px;
+}
+.container .picture{
+ width: 100%;
+ height: 300px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.container .picture .strategy-picture{
+ background: url(../images/about-plan.png);
+ width: 48%;
+ height: 90%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-top: 10px;
+}
+.container .picture .picture2{
+background: url(../images/about-working.png);
+ width: 48%;
+ height: 90%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-top: 10px;
+}
+.container .section{
+ width: 100%;
+ height: 200px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.container .section .section1{
+ width: 45%;
+ height: 100%;
+ border-bottom: 1px dotted black;
+}
+.container .section .section2{
+ width: 45%;
+ height: 100%;
+ border-bottom: 1px dotted black;
+}
+.container .section .section2 h1{
+ font-size: 25px;
+ font-family: "ibm plex Sans";
+ color: red;
+}
+.container .section .section2 p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+ padding-left: 10px;
+}
+.container .section .section1 h1{
+ font-size: 25px;
+ font-family: "ibm plex Sans";
+ color: red;
+}
+.container .section .section1 p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+ padding-left: 10px;
+}
+
+.container .about-us{
+ width: 100%;
+ height: 300px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.container .about-us .work{
+ background: url(../images/about-office.png);
+ width: 48%;
+ height: 90%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-top: 10px;
+}
+.container .about-us .collaboration{
+background: url(../images/about-meeting.png);
+ width: 48%;
+ height: 90%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-top: 10px;
+}
+.container .comment{
+ width: 100%;
+ height: 200px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.container .comment .comment1{
+ width: 45%;
+ height: 100%;
+ border-bottom: 1px dotted black;
+}
+.container .comment .comment2{
+ width: 45%;
+ height: 100%;
+ border-bottom: 1px dotted black;
+}
+.container .comment .comment2 h1{
+ font-size: 25px;
+ font-family: "ibm plex Sans";
+ color: red;
+}
+.container .comment .comment2 p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+ padding-left: 10px;
+}
+.container .comment .comment1 h1{
+ font-size: 25px;
+ font-family: "ibm plex Sans";
+ color: red;
+}
+.container .comment .comment1 p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+ padding-left: 10px;
+}
+.container .last-section{
+ width: 100%;
+ height: 100px;
+}
+.container .last-section p{
+ font-size: 20px;
+ font-family: "nanum gothic";
+}
+.container footer{
+ background: black;
+ width: 100%;
+ height: 70px;
+ margin-bottom: 10px;
+}
+
+.container .footer-menu ul{
+    display: flex;
+    justify-content: space-justify;
+    font-size: 20px;
+    width: 105%;
+    height: 15px;
+}
+
+.container .footer-menu ul li a{
+    text-decoration: none;
+}

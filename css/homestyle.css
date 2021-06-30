@@ -1,0 +1,203 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    width: 1100px;
+ min-height: 700px;
+}
+
+ .nav-header ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.container .home-head img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container .initial-content{
+    width: 100%;
+  height: 10px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.container .first-content{
+    text-align: left;
+}
+.container .second-content{
+    text-align: left;
+}
+
+/* Another content begins here  */
+
+.container main .next-content{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+.container .next-content .firstbox-row{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+.container .next-content .firstbox-row .deep-blue{
+    background-color: teal;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .next-content .firstbox-row .yellow{
+    background-color: yellow;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .next-content .firstbox-row .light-blue{
+    background-color: turquoise;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .next-content .firstbox-row .orange-red{
+    background-color: orangered;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+ .container .next-content .firstbox-row .deep-red{
+     background-color: rgb(214, 13, 13);
+     width: 10%;
+     height: 100%;
+     margin-right: 20;
+     padding: 50px;
+     text-align: center;
+ }
+
+ .container .secondbox-row{
+      width: 100%;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      
+ }
+
+.container .green-box{
+    background-color: green;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+   
+.container .purple{
+    background-color: purple;
+    width: 10%;
+    height: 20%;
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container .pink{
+    background-color: palevioletred;
+    width: 10%;
+    height: 20%;
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container .blue-nine{
+    background-color: blue;
+    width: 10%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container .pale-blue{
+    background-color: rgb(88, 88, 235);
+    width: 10%;
+    height: 100%;
+    margin-top: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container .final-contents{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.container .final-contents .tripartite{
+    text-align: left;
+}
+.container .final-contents .secundus{
+    text-align: left;
+}
+
+.container .final-contents .mono{
+    text-align: left;
+}
+
+.container footer{
+   
+    width: 105%;
+    height: 15px;
+
+   
+}
+
+.container footer ul{
+    display: flex;
+    justify-content: space-justify;
+ background-color: black;
+ font-size: 20px;
+}
+
+.container footer ul li a{
+    text-decoration: none;
+}
